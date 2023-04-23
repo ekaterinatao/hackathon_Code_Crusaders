@@ -23,7 +23,7 @@ To create database containing information about startups with interactive interf
 ## Datasets and code
 Parsing code from [kaggle](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/parsing_kaggle.ipynb) and [theorg.com](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/parsing_theorg.ipynb).  
 
-You can find parsed data in the project folder [raw_data](https://github.com/ekaterinatao/hackathon_Code_Crusaders/tree/master/raw_data).  
+You can find parsed data in the project folder [raw_data](https://github.com/ekaterinatao/hackathon_Code_Crusaders/tree/main/raw_data).  
 
 Data preprocessing code is [here](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/preprocessing.ipynb).  
   
