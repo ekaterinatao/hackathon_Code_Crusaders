@@ -27,4 +27,4 @@ You can find parsed data in the project folder [raw_data](https://github.com/eka
 
 Data preprocessing code is [here](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/preprocessing.ipynb).  
   
-Merged and preprocessed dataset is [here](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/master/final_dataset.csv).  
+Merged and preprocessed dataset is [here](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/master/final_dataset.rar).  
