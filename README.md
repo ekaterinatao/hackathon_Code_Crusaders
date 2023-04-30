@@ -5,7 +5,7 @@
 [2. Description](https://github.com/ekaterinatao/hackathon_Code_Crusaders#description)   
 [3. Aim](https://github.com/ekaterinatao/hackathon_Code_Crusaders#aim)  
 [4. Datasets and code](https://github.com/ekaterinatao/hackathon_Code_Crusaders#datasets-and-code)  
-[5. Launch interactive interface](https://github.com/ekaterinatao/hackathon_Code_Crusaders#launch-interactive-interface)    
+[5. Result](https://github.com/ekaterinatao/hackathon_Code_Crusaders#result)    
 
 ## Team
 [Ekaterina Tao](https://github.com/ekaterinatao) - project manager  
@@ -62,8 +62,8 @@ Merged and preprocessed dataset is [here](https://github.com/ekaterinatao/hackat
 * `stage` - company's stage  
 * `best_company` - whether the company is listed in the best companies list or not  
 
-## Launch interactive interface
-To launch interactive SQLite database click [here](http://45.8.248.146:8000/).  
+## Result 
+To launch interactive interface with SQLite database click [here](http://45.8.248.146:8000/).  
 
 **To launch database on your server follow next steps:**  
 1. [Gradio_prod.py](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/master/Gradio_prod.py) should be hosted on the server (`0.0.0.0` port `8000`) to launch the app. This code reads the data and constructs the interface using gradio.  
