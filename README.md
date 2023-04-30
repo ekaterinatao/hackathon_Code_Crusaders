@@ -26,9 +26,7 @@ Parsing code from [kaggle](https://github.com/ekaterinatao/hackathon_Code_Crusad
 
 You can find parsed data in the project folder [raw_data](https://github.com/ekaterinatao/hackathon_Code_Crusaders/tree/main/raw_data).  
 
-Data preprocessing code is [here](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/database_to_sql.ipynb).  
-
-Code creating SQLite database is [here](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/preprocessing.ipynb).
+Data preprocessing code is [here](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/preprocessing.ipynb).  
   
 Merged and preprocessed dataset is [here](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/master/final_dataset.rar).  
 
@@ -69,7 +67,7 @@ To launch interactive SQLite database click [here](http://45.8.248.146:8000/).
 
 **To launch database on your server follow next steps:**  
 1. [Gradio_prod.py](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/master/Gradio_prod.py) should be hosted on the server (`0.0.0.0` port `8000`) to launch the app. This code reads the data and constructs the interface using gradio.  
-2. [StartUps_DB.db](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/master/StartUps_DB.db) is the SQLite database containing the table `StartUps_DB`. The database should be in the root folder (otherwise the path in Gradio_prod.py should be changed).  
+2. Create SQLite database using code [here](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/database_to_sql.ipynb). The database contains the table `StartUps_DB`. The database should be placed in the root folder (otherwise the path in Gradio_prod.py should be changed).  
 3. To run in the background **screen** should be installed via linux command:  
     `sudo apt-get install screen`  
 4. Create new session:  
