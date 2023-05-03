@@ -22,7 +22,7 @@ Here is our team project for hackaton. We have parsed some data about startups f
 To create database containing information about startups with interactive interface.  
 
 ## Datasets and code
-Parsing code from [kaggle](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/parsing_kaggle.ipynb) and [theorg.com](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/parsing_theorg.ipynb).  
+Parsing code from [kaggle](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/parsing_kaggle.ipynb), [theorg.com](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/parsing_theorg.ipynb) and [wikipedia](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/parsing_wikipedia.ipynb).  
 
 You can find parsed data in the project folder [raw_data](https://github.com/ekaterinatao/hackathon_Code_Crusaders/tree/main/raw_data).  
 
@@ -63,11 +63,11 @@ Merged and preprocessed dataset is [here](https://github.com/ekaterinatao/hackat
 * `best_company` - whether the company is listed in the best companies list or not  
 
 ## Result 
-To launch interactive interface with SQLite database click [here](http://45.8.248.146:8000/).  
+To launch interactive interface with SQLite database click [here](http://45.8.248.146:8001/).  
 
 **To launch database on your server follow next steps:**  
-1. [Gradio_prod.py](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/master/Gradio_prod.py) should be hosted on the server (`0.0.0.0` port `8000`) to launch the app. This code reads the data and constructs the interface using gradio.  
-2. Create SQLite database using code [here](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/database_to_sql.ipynb). The database contains the table `StartUps_DB`. The database should be placed in the root folder (otherwise the path in Gradio_prod.py should be changed).  
+1. [Gradio_prod.py](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/master/Gradio_prod.py) should be hosted on the server (`0.0.0.0` port `8001`) to launch the app. This code reads the data and constructs the interface using gradio.  
+2. Create SQLite database using code [here](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/database_to_sql.ipynb). The database containing the table `StartUps_DB` and [wikipedia dataset](https://github.com/ekaterinatao/hackathon_Code_Crusaders/blob/main/raw_data/wiki_modified.csv) should be placed in the root folder (otherwise the path in Gradio_prod.py should be changed).  
 3. To run in the background **screen** should be installed via linux command:  
     `sudo apt-get install screen`  
 4. Create new session:  
